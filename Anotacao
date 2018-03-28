@@ -1,19 +1,11 @@
-git log
-commit (identificação)
-Author
-Date:
-
-	-m mensagens
+git diff
+Mostra modificações nos arquivos antes de commitar
+Bom para dar uma última olhada nas modificações que foram feitas
 
 
-git log --decorate
+git diff --name-only
+Mostra somente uma lista com os nomes dos arquivos que foram modificados
 
-git log --author="nome" (pode escrever só parte do nome)
 
-git shortlog (mostra em ordem alfabética quais foram os autores, quantos commits fizeram e quais eles foram)
-
-git shotlog -sn (quantidade de commits e nome)
-
-git log --graph (mostra em forma gráfica)
-
-git show [código da hash]
+git commit -am "Edit Anotacao"
+Quando o arquivos já foi commitado antes, pode-se usar a linha de comando acima para commitá-lo.
