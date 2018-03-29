@@ -32,3 +32,22 @@ Mostra somente uma lista com os nomes dos arquivos que foram modificados
 
 git commit -am "Aula 11"
 Quando o arquivos já foi commitado antes, pode-se usar a linha de comando acima para commitá-lo.
+
+
+
+#Aula 12 (Desfazendo)
+git checkout [nome do arquivo]
+Retorna a última modificação do arquivo. O arquivo deve estar na área de mudanças para o código funcionar
+
+
+git reset HEAD [nome do arquivo]
+
+
+git reset --soft [código]
+
+
+git reset --mixes [código]
+
+git reset --hard [código]
+
+Pesquisar esses três
