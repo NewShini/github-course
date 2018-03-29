@@ -51,3 +51,8 @@ git reset --mixes [código]
 git reset --hard [código]
 
 Pesquisar esses três
+
+
+#Aula 14 (Chave SSH)
+
+https://help.github.com/articles/connecting-to-github-with-ssh/
